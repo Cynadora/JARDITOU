@@ -81,17 +81,15 @@ grid-template-columns: 70% 30%;
     width : 100%;
 }
 
-
-
-
 /* Je commence le web responsive */
 
 /* Breakpoint : 768 pixels */
 @media screen and (max-width: 768px){
-}
+
+/* Pour redimensionner les polices d'écriture */
 
 .firstp {
-    color:chartreuse;
+    color:aqua;
     font-size: 3rem;
 }
    
@@ -101,16 +99,16 @@ grid-template-columns: 70% 30%;
 }
 
 .thirdp {
-    color:blueviolet;
+    color:rgb(27, 211, 36);
     font-size: 1rem;
 } 
 
 /* Afficher les menus verticalement sur mobile */
-@media screen and (max-width: 768px){
+
     /*masque la colone de droite*/
     .tu{
         display: none;
-        background-color: rgb(255, 0, 43);
+        background-color: rgb(209, 223, 17);
     }
     nav ul li {
         display: block;
